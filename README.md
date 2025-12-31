@@ -1,6 +1,6 @@
 # Space Marine 2 CH-Launcher
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/SpaceMarine2_Launcher)
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/yourusername/SpaceMarine2_Launcher)
 [![Python](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # ==================================================
-# Space Marine 2 CH-Launcher
-VERSION = "1.0.0"
+# Space Marine 2 - CH-Launcher
+VERSION = "1.0.1"
 DEBUG = False
 
 # ==================================================
@@ -27,6 +27,7 @@ from tkinter import messagebox
 # ==================================================
 
 APP_NAME = "Space Marine 2"
+APP_TITLE = "Space Marine 2 - CH-Launcher"
 APP_ID = "2183900"
 APP_EXE = "start_protected_game.exe"
 
@@ -387,7 +388,7 @@ class LauncherGUI(tk.Tk):
         # Initialize the launcher GUI.
         super().__init__()
 
-        self.title(f"{APP_NAME} CH-Launcher v{VERSION}")
+        self.title(f"{APP_TITLE} v{VERSION}")
 
         self.width = 450
         self.height = 400
@@ -692,7 +693,6 @@ class LauncherGUI(tk.Tk):
             print_debug("Starting the game via Steam...")
             webbrowser.open(f"steam://rungameid/{APP_ID}")
 
-            print_success("Game started, closing launcher...")
             self.toggle_topmost(state=False)
 
         except (OSError, RuntimeError) as e:
@@ -762,7 +762,6 @@ class LauncherGUI(tk.Tk):
             self.enable_inactive()
 
             if success:
-                print_success("Game started with modifications, closing launcher...")
                 self.toggle_topmost(state=False)
                 copy_if_not_empty(SETTINGS_MAIN, Settings_modified)
 
