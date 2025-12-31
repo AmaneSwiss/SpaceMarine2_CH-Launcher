@@ -6,6 +6,8 @@
 
 A custom launcher for Space Marine 2 that provides advanced features for managing game settings, network interfaces, and anti-cheat bypass functionality.
 
+<img width="452" height="432" alt="grafik" src="https://github.com/user-attachments/assets/c238e0bc-c575-44fb-8da2-8f01e7531432" />
+
 ## Features
 
 - 🎮 Multiple launch modes (Normal and Bypass)
